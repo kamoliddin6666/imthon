@@ -23,7 +23,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
     height: 650px;
     .section-logo{
         display: flex;
@@ -612,7 +611,6 @@ body{
             flex-direction: column;
             padding-left: 0;
             width: 15px;
-            width: 100%;
             margin-left: 220px;
             height:800px;
             .box--span{
@@ -660,7 +658,6 @@ body{
     }
 
     .templet{
-        width: 100%;
         padding-bottom: 104px;
         .temlet-logo{
             display: flex;
