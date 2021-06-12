@@ -138,6 +138,91 @@
   }
 }
 
+@media only screen and (max-width: 435px) {
+  .container {
+    max-width: 390px;
+    margin: 0 auto;
+  }
+  .footer .footer-logo {
+    height: 758px;
+  }
+  .footer .footer-logo .footer-logo__left {
+    padding: 0 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 320px;
+  }
+  .footer .footer-logo .footer-logo__left .left__text-logo .text-logo--text {
+    font-size: 32px;
+    width: 311px;
+  }
+  .footer .footer-logo .footer-logo__left .left__image {
+    margin-top: 40px;
+  }
+  .footer .footer-logo .footer-logo__left .left__image .image--link {
+    padding: 0 10px;
+  }
+  .footer .footer-logo .footer-logo__left .left__image .image--link img {
+    height: 40px;
+    width: 130px;
+  }
+  .footer .footer-logo .footer-logo__right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 39px;
+    height: 438px;
+  }
+  .footer .footer-logo .footer-logo__right .right__rasmlar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 66px;
+  }
+  .footer .footer-logo .footer-logo__right .right__rasmlar .rasmlar__menu-logo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 41px;
+    margin-left: 0;
+  }
+  .footer .footer-logo .footer-logo__right .right__rasmlar .rasmlar__menu-logo .menu-logo--iytms .menu-logo--link {
+    font-size: 15px;
+    padding: 16px 32px;
+    display: inline-block;
+  }
+  .footer .footer-logo .footer-logo__right .right__icon {
+    padding-bottom: 66px;
+  }
+  .footer .footer-logo .footer-logo__right .right__icon a {
+    padding: 0 10px;
+  }
+  .footer .footer-logo .footer-logo__right .right__icon a svg {
+    fill: #FCB72B;
+  }
+  .footer .footer-logo .footer-logo__right .right__icon a svg:hover {
+    fill: #E5ECF4;
+  }
+}
+
 @media only screen and (max-width: 375px) {
   .container {
     max-width: 311px;
@@ -291,6 +376,56 @@
   border: 2px solid #FCB72B;
   color: #FCB72B;
   background-color: transparent;
+}
+
+@media only screen and (max-width: 435px) {
+  .container {
+    max-width: 390px;
+    margin: 0 auto;
+  }
+  .header {
+    background-color: #fff;
+  }
+  .header .header-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: white;
+    height: 96px;
+  }
+  .header .header-logo .header-logo__left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .header-logo .header-logo__left .left__img {
+    margin-left: 120px;
+  }
+  .header .header-logo .header-logo__left .font .fas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .header .header-logo .header-logo__left .left__nav-menu {
+    display: none;
+  }
+  .header .header-logo .header-logo__left .fas:checked ~ .left__nav-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .link {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -1028,9 +1163,9 @@
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 435px) {
   .container {
-    max-width: 435px;
+    max-width: 390px;
     margin: 0 auto;
   }
   .container .section {
