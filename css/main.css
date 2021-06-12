@@ -1168,10 +1168,10 @@
     max-width: 390px;
     margin: 0 auto;
   }
-  .container .section {
+  .section {
     height: 690px;
   }
-  .container .section .section-logo {
+  .section .section-logo {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1185,17 +1185,17 @@
     text-align: center;
     padding-top: 120px;
   }
-  .container .section .section-logo .section-logo__text {
+  .section .section-logo .section-logo__text {
     width: 311px;
     font-size: 40px;
   }
-  .container .section .section-logo .link {
+  .section .section-logo .link {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-left: 70px;
   }
-  .container .section .section-logo .section-logo__lerem {
+  .section .section-logo .section-logo__lerem {
     font-size: 15px;
     line-height: 25px;
     margin-left: 0px;
@@ -1203,17 +1203,17 @@
     width: 311px;
     margin-bottom: 32px;
   }
-  .container .section .section-logo .section-logo__lerem::after {
+  .section .section-logo .section-logo__lerem::after {
     display: none;
   }
-  .container .section .section-logo .section-logo__lerem::before {
+  .section .section-logo .section-logo__lerem::before {
     height: 158px;
     width: 477px;
     background-image: url(../image/GroupCopymmm.svg);
     top: 215px;
     left: -360px;
   }
-  .container .banner {
+  .banner {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1221,7 +1221,7 @@
     padding-top: 0px;
     padding-bottom: 0;
   }
-  .container .banner .banner__box {
+  .banner .banner__box {
     background-color: transparent;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1232,7 +1232,7 @@
     margin-left: 200px;
     height: 800px;
   }
-  .container .banner .banner__box .box--span {
+  .banner .banner__box .box--span {
     width: 56px;
     height: 56px;
     margin-top: 120px;
@@ -1240,21 +1240,21 @@
             transform: translateX(-40px);
     background-image: url(../image/CombinedShapemm1.svg);
   }
-  .container .banner .banner__box .box--span2 {
+  .banner .banner__box .box--span2 {
     width: 56px;
     height: 56px;
     -webkit-transform: translateX(-40px);
             transform: translateX(-40px);
     background-image: url(../image/001-scootermm2.svg);
   }
-  .container .banner .banner__box .box--span3 {
+  .banner .banner__box .box--span3 {
     width: 56px;
     height: 56px;
     -webkit-transform: translateX(-40px);
             transform: translateX(-40px);
     background-image: url(../image/CombinedShapemm3.svg);
   }
-  .container .banner .banner-logo {
+  .banner .banner-logo {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1266,25 +1266,25 @@
     width: 311px;
     padding-top: 150px;
   }
-  .container .banner .banner-logo .banner-logo__bloc {
+  .banner .banner-logo .banner-logo__bloc {
     margin-top: 90px;
     margin-left: -180px;
   }
-  .container .banner .banner-logo .banner-logo__bloc .bloc--text {
+  .banner .banner-logo .banner-logo__bloc .bloc--text {
     font-size: 24px;
     margin-left: -160px;
   }
-  .container .banner .banner-logo .banner-logo__bloc .bloc--lorem {
+  .banner .banner-logo .banner-logo__bloc .bloc--lorem {
     padding-top: 24px;
     font-size: 15px;
     line-height: 25px;
     width: 311px;
     margin-bottom: 48px;
   }
-  .container .templet {
+  .templet {
     padding-bottom: 104px;
   }
-  .container .templet .temlet-logo {
+  .templet .temlet-logo {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1300,40 +1300,40 @@
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
-  .container .templet .temlet-logo .templet-logo__left {
+  .templet .temlet-logo .templet-logo__left {
     padding-top: 56px;
   }
-  .container .templet .temlet-logo .templet-logo__left .left--text {
+  .templet .temlet-logo .templet-logo__left .left--text {
     font-size: 32px;
     margin-left: 0px;
     width: 311px;
   }
-  .container .templet .temlet-logo .templet-logo__left .left--lorem {
+  .templet .temlet-logo .templet-logo__left .left--lorem {
     width: 311px;
     font-size: 15px;
     margin-bottom: 40px;
     padding-top: 32px;
     line-height: 25px;
   }
-  .container .templet .temlet-logo .templet-logo__left .link {
+  .templet .temlet-logo .templet-logo__left .link {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-left: 70px;
   }
-  .container .templet .temlet-logo .temlet-logo__right {
+  .templet .temlet-logo .temlet-logo__right {
     margin-top: 60px;
     width: 311px;
     height: 311px;
   }
-  .container .templet .temlet-logo .temlet-logo__right::before {
+  .templet .temlet-logo .temlet-logo__right::before {
     height: 150px;
     width: 740px;
     z-index: 2;
     top: 170px;
     right: -0px;
   }
-  .container .templet .temlet-logo2 {
+  .templet .temlet-logo2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1349,40 +1349,40 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .container .templet .temlet-logo2 .templet-logo__left {
+  .templet .temlet-logo2 .templet-logo__left {
     padding-top: 56px;
   }
-  .container .templet .temlet-logo2 .templet-logo__left .left--text {
+  .templet .temlet-logo2 .templet-logo__left .left--text {
     font-size: 32px;
     margin-left: 0px;
     width: 311px;
   }
-  .container .templet .temlet-logo2 .templet-logo__left .left--lorem {
+  .templet .temlet-logo2 .templet-logo__left .left--lorem {
     width: 311px;
     font-size: 15px;
     margin-bottom: 40px;
     padding-top: 32px;
     line-height: 25px;
   }
-  .container .templet .temlet-logo2 .templet-logo__left .link {
+  .templet .temlet-logo2 .templet-logo__left .link {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-left: 70px;
   }
-  .container .templet .temlet-logo2 .temlet-logo__right {
+  .templet .temlet-logo2 .temlet-logo__right {
     margin-top: 60px;
     width: 311px;
     height: 311px;
   }
-  .container .templet .temlet-logo2 .temlet-logo__right::before {
+  .templet .temlet-logo2 .temlet-logo__right::before {
     height: 150px;
     width: 740px;
     z-index: 2;
     top: 0px;
     left: -520px;
   }
-  .container .templet .temlet-logo3 {
+  .templet .temlet-logo3 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1398,33 +1398,33 @@
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
-  .container .templet .temlet-logo3 .templet-logo__left {
+  .templet .temlet-logo3 .templet-logo__left {
     padding-top: 56px;
   }
-  .container .templet .temlet-logo3 .templet-logo__left .left--text {
+  .templet .temlet-logo3 .templet-logo__left .left--text {
     font-size: 32px;
     margin-left: 0px;
     width: 311px;
   }
-  .container .templet .temlet-logo3 .templet-logo__left .left--lorem {
+  .templet .temlet-logo3 .templet-logo__left .left--lorem {
     width: 311px;
     font-size: 15px;
     margin-bottom: 40px;
     padding-top: 32px;
     line-height: 25px;
   }
-  .container .templet .temlet-logo3 .templet-logo__left .link {
+  .templet .temlet-logo3 .templet-logo__left .link {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-left: 70px;
   }
-  .container .templet .temlet-logo3 .temlet-logo__right {
+  .templet .temlet-logo3 .temlet-logo__right {
     margin-top: 60px;
     width: 311px;
     height: 311px;
   }
-  .container .templet .temlet-logo3 .temlet-logo__right::before {
+  .templet .temlet-logo3 .temlet-logo__right::before {
     height: 150px;
     width: 740px;
     z-index: 2;
