@@ -87,7 +87,7 @@
   fill: #E5ECF4;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 435px) {
   .container {
     max-width: 390px;
     margin: 0 auto;
@@ -327,7 +327,7 @@
   background-color: transparent;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 435px) {
   .container {
     max-width: 390px;
     margin: 0 auto;
@@ -827,7 +827,7 @@
   right: -260px;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 435px) {
   .container {
     max-width: 390px;
     margin: 0 auto;
