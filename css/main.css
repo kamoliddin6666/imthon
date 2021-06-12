@@ -1272,7 +1272,7 @@ body {
   }
   .banner .banner-logo .banner-logo__bloc {
     margin-top: 90px;
-    margin-left: 0px;
+    margin-left: -150px;
   }
   .banner .banner-logo .banner-logo__bloc .bloc--text {
     font-size: 24px;
