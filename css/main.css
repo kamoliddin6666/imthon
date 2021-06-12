@@ -87,9 +87,9 @@
   fill: #E5ECF4;
 }
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 450px) {
   .container {
-    max-width: 435px;
+    max-width: 425px;
     margin: 0 auto;
   }
   .footer .footer-logo {
@@ -327,9 +327,9 @@
   background-color: transparent;
 }
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 450px) {
   .container {
-    max-width: 435px;
+    max-width: 425px;
     margin: 0 auto;
   }
   .header {
@@ -339,6 +339,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding: 0 20px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -826,9 +827,9 @@
   right: -260px;
 }
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 450px) {
   .container {
-    max-width: 435px;
+    max-width: 425px;
     margin: 0 auto;
   }
   .section {
