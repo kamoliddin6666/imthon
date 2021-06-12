@@ -68,25 +68,26 @@
     }
 }
 
-@media only screen and (max-width: 435px){
+@media only screen and (max-width: 770px){
     .container{
-        max-width: 390px;
+        max-width: 689px;
         margin: 0 auto;
     }
     .footer{
         .footer-logo{
-            height: 758px;
+            height: 396px;
             .footer-logo__left{
-                padding: 0 32px;
+                padding: 0 190px;
                 display: flex;
                 text-align: center;
                 flex-direction: column;
                 justify-content: center;
-                height: 320px;
+                height: 300px;
                 .left__text-logo{
                     .text-logo--text{
-                        font-size: 32px;
-                        width: 311px;
+                        font-size: 48px;
+                        line-height: 48px;
+                        width: 415px;
                     }
                 }
                 .left__image{
@@ -95,41 +96,21 @@
                         padding: 0 10px;
                         img{
                             height: 40px;
-                            width: 130px;
+                            width: 113px;
                         }
                     }
                 }
             }
             .footer-logo__right{
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
                 padding: 0 39px;
-                height: 438px;
+                height: 96px;
                 .right__rasmlar{
-                    flex-direction: column;
-                    padding-top: 66px;
                     .rasmlar__menu-logo{
-                        flex-direction: column;
-                        padding-top: 41px;
-                        margin-left: 0;
+                        margin-left: 38px;
                         .menu-logo--iytms{
                             .menu-logo--link{
                                 font-size: 15px;
-                                padding: 16px 32px;
-                                display: inline-block;
-                            }
-                        }
-                    }
-                }
-               .right__icon{
-                   padding-bottom: 66px;
-                    a{
-                        padding: 0 10px;
-                        svg{
-                            fill: #FCB72B;
-                            &:hover{
-                                fill: #E5ECF4;
+                                padding: 0 22px;
                             }
                         }
                     }
@@ -139,6 +120,7 @@
     }
     
 }
+
 
 @media only screen and (max-width: 375px){
     .container{

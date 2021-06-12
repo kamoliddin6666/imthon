@@ -321,10 +321,9 @@
 
 //   footer start
 
-
-@media only screen and (max-width: 435px){
+@media only screen and (max-width: 770px){
     .container{
-        max-width: 390px;
+        max-width: 689px;
         margin: 0 auto;
     }
     .section{
@@ -334,21 +333,18 @@
             flex-direction: column;
             justify-content: center;
             text-align: center;
-            padding-top: 120px;
+            padding-top: 187px;
             .section-logo__text{
-                width: 311px;
-                font-size: 40px;
+                width: 573px;
+                font-size: 56px;
             }
             .link{
-                display: flex;
-                margin-left: 70px;
+                margin-left: 200px;
             }
             .section-logo__lerem{
-                font-size: 15px;
-                line-height: 25px;
                 margin-left: 0px;
                 padding-top: 24px;
-                width: 311px;
+                width: 573px;
                 margin-bottom: 32px;
             }
             .section-logo__lerem::after{
@@ -358,8 +354,8 @@
                 height: 158px;
                 width: 477px;
                 background-image: url(../image/GroupCopymmm.svg);
-                top: 215px;
-                left: -390px;
+                top: 200px;
+                left: -250px;
             }
         }
     }
@@ -368,53 +364,43 @@
         display: flex;
         background-color: #F2F2F2;
         padding-top: 0px;
-        padding-bottom: 0;
         .banner__box{
-            background-color:transparent;
             flex-direction: column;
             padding-left: 0;
             width: 15px;
-            margin-left: 250px;
-            height:800px;
+            margin-left: 100px;
+            height:600px;
             .box--span{
-                width: 56px;
-                height: 56px;
-                margin-top: 120px;
+                margin-top: 150px;
                 transform: translateX(-40px);
-                background-image: url(../image/CombinedShapemm1.svg);
             }
             .box--span2{
-                width: 56px;
-                height: 56px;
                 transform: translateX(-40px);
-                background-image: url(../image/001-scootermm2.svg);
             }
             .box--span3{
-                width: 56px;
-                height: 56px;
+                border-radius: 50%;
                 transform: translateX(-40px);
-                background-image: url(../image/CombinedShapemm3.svg);
             }
         }
         .banner-logo{
             display: flex;
             flex-direction: column;
-            text-align: center;
-            width: 311px;
+            width: 1110px;
             padding-top: 150px;
             .banner-logo__bloc{
-                margin-top: 90px;
-                margin-left: -180px;
+                margin-top: 0;
+                margin-left: 150px;
                 .bloc--text{
                     font-size: 24px;
-                    margin-left: -160px;
+                    font-family: 'Space normal';
+                    color: #495567;
                 }
                 .bloc--lorem{
-                    padding-top: 24px;
+                    padding-top: 27px;
                     font-size: 15px;
                     line-height: 25px;
-                    width: 311px;
-                    margin-bottom: 48px;
+                    width: 398px;
+                    margin-bottom: 40px;
                 }
             }
         }
@@ -431,33 +417,56 @@
             .templet-logo__left{
                 padding-top: 56px;
                 .left--text{
-                    font-size: 32px;
-                    margin-left: 0px;
-                    width: 311px;
+                    font-size: 48px;
+                    margin-left: 60px;
+                    font-family: 'Space normal';
+                    letter-spacing: -2.14286px;
+                    width: 445px;
+                    color: #495567;
                 }
                 .left--lorem{
-                    width: 311px;
+                    width: 553px;
                     font-size: 15px;
                     margin-bottom: 40px;
-                    padding-top: 32px;
+                    padding-top: 24px;
                     line-height: 25px;
                 }
                 .link{
-                    display: flex;
-                    margin-left: 70px;
+                    margin-left: 190px;
                 }
             }
             .temlet-logo__right{
-                margin-top: 60px;
-                width: 311px;
-                height: 311px;
+                margin-top: 145px;
+                width: 445px;
+                height: 445px;
+                border-radius: 50%;
+                background-image: url(../image/Bitmapttt.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                span{
+                    display: flex;
+                    border-radius: 50%;
+                    width: 445px;
+                    height: 445px;
+                    background-color: #E5ECF4;
+                    transform: translate(520px, -150px);
+                }
             }
             .temlet-logo__right::before{
+                display: flex;
+                position: absolute;
+                content: "";
+                background-image: url(../image/Group32rrr.svg);
+                background-position: center;
+                background-repeat: no-repeat;
                 height: 150px;
+                position: relative;
                 width: 740px;
                 z-index: 2;
-                top: 170px;
-                right: -0px;
+                top: 300px;
+                right: 101px;
             }
         }
         .temlet-logo2{
@@ -469,33 +478,36 @@
             .templet-logo__left{
                 padding-top: 56px;
                 .left--text{
-                    font-size: 32px;
-                    margin-left: 0px;
-                    width: 311px;
+                    font-size: 48px;
+                    margin-left: 60px;
+                    width: 445px;
                 }
                 .left--lorem{
-                    width: 311px;
+                    width: 553px;
                     font-size: 15px;
                     margin-bottom: 40px;
-                    padding-top: 32px;
+                    padding-top: 24px;
                     line-height: 25px;
                 }
                 .link{
-                    display: flex;
-                    margin-left: 70px;
+                    margin-left: 190px;
                 }
             }
             .temlet-logo__right{
-                margin-top: 60px;
-                width: 311px;
-                height: 311px;
+                margin-top: 145px;
+                width: 445px;
+                height: 445px;
+                span{
+                    width: 445px;
+                    height: 445px;
+                    transform: translate(-520px, -150px);
+                }
             }
             .temlet-logo__right::before{
                 height: 150px;
                 width: 740px;
-                z-index: 2;
                 top: 0px;
-                left: -520px;
+                right: 101px;
             }
         }
         .temlet-logo3{
@@ -507,39 +519,260 @@
             .templet-logo__left{
                 padding-top: 56px;
                 .left--text{
-                    font-size: 32px;
-                    margin-left: 0px;
-                    width: 311px;
+                    font-size: 48px;
+                    margin-left: 60px;
+                    letter-spacing: -2.14286px;
+                    width: 445px;
                 }
                 .left--lorem{
-                    width: 311px;
+                    width: 553px;
                     font-size: 15px;
                     margin-bottom: 40px;
-                    padding-top: 32px;
+                    padding-top: 24px;
                     line-height: 25px;
+                }
+                .link{
+                    margin-left: 190px;
+                }
+            }
+            .temlet-logo__right{
+                margin-top: 145px;
+                width: 445px;
+                height: 445px;
+                span{
+                    width: 445px;
+                    height: 445px;
+                    transform: translate(520px, -150px);
+                }
+            }
+            .temlet-logo__right::before{
+                height: 150px;
+                width: 740px;
+                top: 100px;
+                right: -260px;
+            }
+        }
+    }
+
+
+}
+
+@media only screen and (max-width: 450px){
+    .container{
+        max-width: 435px;
+        margin: 0 auto;
+        .section{
+            height: 690px;
+            .section-logo{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                padding-top: 120px;
+                .section-logo__text{
+                    width: 311px;
+                    font-size: 40px;
                 }
                 .link{
                     display: flex;
                     margin-left: 70px;
                 }
-            }
-            .temlet-logo__right{
-                margin-top: 60px;
-                width: 311px;
-                height: 311px;
-            }
-            .temlet-logo__right::before{
-                height: 150px;
-                width: 740px;
-                z-index: 2;
-                top: 0px;
-                right: -125px;
+                .section-logo__lerem{
+                    font-size: 15px;
+                    line-height: 25px;
+                    margin-left: 0px;
+                    padding-top: 24px;
+                    width: 311px;
+                    margin-bottom: 32px;
+                }
+                .section-logo__lerem::after{
+                    display: none;
+                }
+                .section-logo__lerem::before{
+                    height: 158px;
+                    width: 477px;
+                    background-image: url(../image/GroupCopymmm.svg);
+                    top: 215px;
+                    left: -360px;
+                }
             }
         }
-    }
     
-
-
+        .banner{
+            display: flex;
+            background-color: #F2F2F2;
+            padding-top: 0px;
+            padding-bottom: 0;
+            .banner__box{
+                background-color:transparent;
+                flex-direction: column;
+                padding-left: 0;
+                width: 15px;
+                margin-left: 200px;
+                height:800px;
+                .box--span{
+                    width: 56px;
+                    height: 56px;
+                    margin-top: 120px;
+                    transform: translateX(-40px);
+                    background-image: url(../image/CombinedShapemm1.svg);
+                }
+                .box--span2{
+                    width: 56px;
+                    height: 56px;
+                    transform: translateX(-40px);
+                    background-image: url(../image/001-scootermm2.svg);
+                }
+                .box--span3{
+                    width: 56px;
+                    height: 56px;
+                    transform: translateX(-40px);
+                    background-image: url(../image/CombinedShapemm3.svg);
+                }
+            }
+            .banner-logo{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                width: 311px;
+                padding-top: 150px;
+                .banner-logo__bloc{
+                    margin-top: 90px;
+                    margin-left: -180px;
+                    .bloc--text{
+                        font-size: 24px;
+                        margin-left: -160px;
+                    }
+                    .bloc--lorem{
+                        padding-top: 24px;
+                        font-size: 15px;
+                        line-height: 25px;
+                        width: 311px;
+                        margin-bottom: 48px;
+                    }
+                }
+            }
+        }
+    
+        .templet{
+            padding-bottom: 104px;
+            .temlet-logo{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                flex-direction: column-reverse;
+                .templet-logo__left{
+                    padding-top: 56px;
+                    .left--text{
+                        font-size: 32px;
+                        margin-left: 0px;
+                        width: 311px;
+                    }
+                    .left--lorem{
+                        width: 311px;
+                        font-size: 15px;
+                        margin-bottom: 40px;
+                        padding-top: 32px;
+                        line-height: 25px;
+                    }
+                    .link{
+                        display: flex;
+                        margin-left: 70px;
+                    }
+                }
+                .temlet-logo__right{
+                    margin-top: 60px;
+                    width: 311px;
+                    height: 311px;
+                }
+                .temlet-logo__right::before{
+                    height: 150px;
+                    width: 740px;
+                    z-index: 2;
+                    top: 170px;
+                    right: -0px;
+                }
+            }
+            .temlet-logo2{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                flex-direction: column;
+                .templet-logo__left{
+                    padding-top: 56px;
+                    .left--text{
+                        font-size: 32px;
+                        margin-left: 0px;
+                        width: 311px;
+                    }
+                    .left--lorem{
+                        width: 311px;
+                        font-size: 15px;
+                        margin-bottom: 40px;
+                        padding-top: 32px;
+                        line-height: 25px;
+                    }
+                    .link{
+                        display: flex;
+                        margin-left: 70px;
+                    }
+                }
+                .temlet-logo__right{
+                    margin-top: 60px;
+                    width: 311px;
+                    height: 311px;
+                }
+                .temlet-logo__right::before{
+                    height: 150px;
+                    width: 740px;
+                    z-index: 2;
+                    top: 0px;
+                    left: -520px;
+                }
+            }
+            .temlet-logo3{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                flex-direction: column-reverse;
+                .templet-logo__left{
+                    padding-top: 56px;
+                    .left--text{
+                        font-size: 32px;
+                        margin-left: 0px;
+                        width: 311px;
+                    }
+                    .left--lorem{
+                        width: 311px;
+                        font-size: 15px;
+                        margin-bottom: 40px;
+                        padding-top: 32px;
+                        line-height: 25px;
+                    }
+                    .link{
+                        display: flex;
+                        margin-left: 70px;
+                    }
+                }
+                .temlet-logo__right{
+                    margin-top: 60px;
+                    width: 311px;
+                    height: 311px;
+                }
+                .temlet-logo__right::before{
+                    height: 150px;
+                    width: 740px;
+                    z-index: 2;
+                    top: 0px;
+                    right: -125px;
+                }
+            }
+        }
+        
+    }
 }
 
 @media only screen and (max-width: 370px){
