@@ -121,6 +121,77 @@
     
 }
 
+@media only screen and (max-width: 435px){
+    .container{
+        max-width: 390px;
+        margin: 0 auto;
+    }
+    .footer{
+        .footer-logo{
+            height: 758px;
+            .footer-logo__left{
+                padding: 0 32px;
+                display: flex;
+                text-align: center;
+                flex-direction: column;
+                justify-content: center;
+                height: 320px;
+                .left__text-logo{
+                    .text-logo--text{
+                        font-size: 32px;
+                        width: 311px;
+                    }
+                }
+                .left__image{
+                    margin-top: 40px;
+                    .image--link{
+                        padding: 0 10px;
+                        img{
+                            height: 40px;
+                            width: 130px;
+                        }
+                    }
+                }
+            }
+            .footer-logo__right{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 0 39px;
+                height: 438px;
+                .right__rasmlar{
+                    flex-direction: column;
+                    padding-top: 66px;
+                    .rasmlar__menu-logo{
+                        flex-direction: column;
+                        padding-top: 41px;
+                        margin-left: 0;
+                        .menu-logo--iytms{
+                            .menu-logo--link{
+                                font-size: 15px;
+                                padding: 16px 32px;
+                                display: inline-block;
+                            }
+                        }
+                    }
+                }
+               .right__icon{
+                   padding-bottom: 66px;
+                    a{
+                        padding: 0 10px;
+                        svg{
+                            fill: #FCB72B;
+                            &:hover{
+                                fill: #E5ECF4;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
 
 @media only screen and (max-width: 375px){
     .container{
