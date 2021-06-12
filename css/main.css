@@ -1229,7 +1229,7 @@
             flex-direction: column;
     padding-left: 0;
     width: 15px;
-    margin-left: 200px;
+    margin-left: 220px;
     height: 800px;
   }
   .banner .banner__box .box--span {
@@ -1268,7 +1268,7 @@
   }
   .banner .banner-logo .banner-logo__bloc {
     margin-top: 90px;
-    margin-left: -180px;
+    margin-left: -160px;
   }
   .banner .banner-logo .banner-logo__bloc .bloc--text {
     font-size: 24px;
