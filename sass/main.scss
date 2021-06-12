@@ -321,9 +321,10 @@
 
 //   footer start
 
-@media only screen and (max-width: 770px){
+
+@media only screen and (max-width: 470px){
     .container{
-        max-width: 689px;
+        max-width: 435px;
         margin: 0 auto;
     }
     .section{
@@ -333,18 +334,21 @@
             flex-direction: column;
             justify-content: center;
             text-align: center;
-            padding-top: 187px;
+            padding-top: 120px;
             .section-logo__text{
-                width: 573px;
-                font-size: 56px;
+                width: 311px;
+                font-size: 40px;
             }
             .link{
-                margin-left: 200px;
+                display: flex;
+                margin-left: 70px;
             }
             .section-logo__lerem{
+                font-size: 15px;
+                line-height: 25px;
                 margin-left: 0px;
                 padding-top: 24px;
-                width: 573px;
+                width: 311px;
                 margin-bottom: 32px;
             }
             .section-logo__lerem::after{
@@ -354,8 +358,8 @@
                 height: 158px;
                 width: 477px;
                 background-image: url(../image/GroupCopymmm.svg);
-                top: 200px;
-                left: -250px;
+                top: 215px;
+                left: -390px;
             }
         }
     }
@@ -364,43 +368,53 @@
         display: flex;
         background-color: #F2F2F2;
         padding-top: 0px;
+        padding-bottom: 0;
         .banner__box{
+            background-color:transparent;
             flex-direction: column;
             padding-left: 0;
             width: 15px;
-            margin-left: 100px;
-            height:600px;
+            margin-left: 250px;
+            height:800px;
             .box--span{
-                margin-top: 150px;
+                width: 56px;
+                height: 56px;
+                margin-top: 120px;
                 transform: translateX(-40px);
+                background-image: url(../image/CombinedShapemm1.svg);
             }
             .box--span2{
+                width: 56px;
+                height: 56px;
                 transform: translateX(-40px);
+                background-image: url(../image/001-scootermm2.svg);
             }
             .box--span3{
-                border-radius: 50%;
+                width: 56px;
+                height: 56px;
                 transform: translateX(-40px);
+                background-image: url(../image/CombinedShapemm3.svg);
             }
         }
         .banner-logo{
             display: flex;
             flex-direction: column;
-            width: 1110px;
+            text-align: center;
+            width: 311px;
             padding-top: 150px;
             .banner-logo__bloc{
-                margin-top: 0;
-                margin-left: 150px;
+                margin-top: 90px;
+                margin-left: -180px;
                 .bloc--text{
                     font-size: 24px;
-                    font-family: 'Space normal';
-                    color: #495567;
+                    margin-left: -160px;
                 }
                 .bloc--lorem{
-                    padding-top: 27px;
+                    padding-top: 24px;
                     font-size: 15px;
                     line-height: 25px;
-                    width: 398px;
-                    margin-bottom: 40px;
+                    width: 311px;
+                    margin-bottom: 48px;
                 }
             }
         }
@@ -417,56 +431,33 @@
             .templet-logo__left{
                 padding-top: 56px;
                 .left--text{
-                    font-size: 48px;
-                    margin-left: 60px;
-                    font-family: 'Space normal';
-                    letter-spacing: -2.14286px;
-                    width: 445px;
-                    color: #495567;
+                    font-size: 32px;
+                    margin-left: 0px;
+                    width: 311px;
                 }
                 .left--lorem{
-                    width: 553px;
+                    width: 311px;
                     font-size: 15px;
                     margin-bottom: 40px;
-                    padding-top: 24px;
+                    padding-top: 32px;
                     line-height: 25px;
                 }
                 .link{
-                    margin-left: 190px;
+                    display: flex;
+                    margin-left: 70px;
                 }
             }
             .temlet-logo__right{
-                margin-top: 145px;
-                width: 445px;
-                height: 445px;
-                border-radius: 50%;
-                background-image: url(../image/Bitmapttt.jpg);
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                position: relative;
-                span{
-                    display: flex;
-                    border-radius: 50%;
-                    width: 445px;
-                    height: 445px;
-                    background-color: #E5ECF4;
-                    transform: translate(520px, -150px);
-                }
+                margin-top: 60px;
+                width: 311px;
+                height: 311px;
             }
             .temlet-logo__right::before{
-                display: flex;
-                position: absolute;
-                content: "";
-                background-image: url(../image/Group32rrr.svg);
-                background-position: center;
-                background-repeat: no-repeat;
                 height: 150px;
-                position: relative;
                 width: 740px;
                 z-index: 2;
-                top: 300px;
-                right: 101px;
+                top: 170px;
+                right: -0px;
             }
         }
         .temlet-logo2{
@@ -478,36 +469,33 @@
             .templet-logo__left{
                 padding-top: 56px;
                 .left--text{
-                    font-size: 48px;
-                    margin-left: 60px;
-                    width: 445px;
+                    font-size: 32px;
+                    margin-left: 0px;
+                    width: 311px;
                 }
                 .left--lorem{
-                    width: 553px;
+                    width: 311px;
                     font-size: 15px;
                     margin-bottom: 40px;
-                    padding-top: 24px;
+                    padding-top: 32px;
                     line-height: 25px;
                 }
                 .link{
-                    margin-left: 190px;
+                    display: flex;
+                    margin-left: 70px;
                 }
             }
             .temlet-logo__right{
-                margin-top: 145px;
-                width: 445px;
-                height: 445px;
-                span{
-                    width: 445px;
-                    height: 445px;
-                    transform: translate(-520px, -150px);
-                }
+                margin-top: 60px;
+                width: 311px;
+                height: 311px;
             }
             .temlet-logo__right::before{
                 height: 150px;
                 width: 740px;
+                z-index: 2;
                 top: 0px;
-                right: 101px;
+                left: -520px;
             }
         }
         .temlet-logo3{
@@ -519,44 +507,40 @@
             .templet-logo__left{
                 padding-top: 56px;
                 .left--text{
-                    font-size: 48px;
-                    margin-left: 60px;
-                    letter-spacing: -2.14286px;
-                    width: 445px;
+                    font-size: 32px;
+                    margin-left: 0px;
+                    width: 311px;
                 }
                 .left--lorem{
-                    width: 553px;
+                    width: 311px;
                     font-size: 15px;
                     margin-bottom: 40px;
-                    padding-top: 24px;
+                    padding-top: 32px;
                     line-height: 25px;
                 }
                 .link{
-                    margin-left: 190px;
+                    display: flex;
+                    margin-left: 70px;
                 }
             }
             .temlet-logo__right{
-                margin-top: 145px;
-                width: 445px;
-                height: 445px;
-                span{
-                    width: 445px;
-                    height: 445px;
-                    transform: translate(520px, -150px);
-                }
+                margin-top: 60px;
+                width: 311px;
+                height: 311px;
             }
             .temlet-logo__right::before{
                 height: 150px;
                 width: 740px;
-                top: 100px;
-                right: -260px;
+                z-index: 2;
+                top: 0px;
+                right: -125px;
             }
         }
     }
+    
 
 
 }
-
 
 @media only screen and (max-width: 370px){
     .container{

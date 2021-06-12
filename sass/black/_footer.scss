@@ -68,26 +68,25 @@
     }
 }
 
-@media only screen and (max-width: 770px){
+@media only screen and (max-width: 470px){
     .container{
-        max-width: 689px;
+        max-width: 435px;
         margin: 0 auto;
     }
     .footer{
         .footer-logo{
-            height: 396px;
+            height: 758px;
             .footer-logo__left{
-                padding: 0 190px;
+                padding: 0 32px;
                 display: flex;
                 text-align: center;
                 flex-direction: column;
                 justify-content: center;
-                height: 300px;
+                height: 320px;
                 .left__text-logo{
                     .text-logo--text{
-                        font-size: 48px;
-                        line-height: 48px;
-                        width: 415px;
+                        font-size: 32px;
+                        width: 311px;
                     }
                 }
                 .left__image{
@@ -96,21 +95,41 @@
                         padding: 0 10px;
                         img{
                             height: 40px;
-                            width: 113px;
+                            width: 130px;
                         }
                     }
                 }
             }
             .footer-logo__right{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
                 padding: 0 39px;
-                height: 96px;
+                height: 438px;
                 .right__rasmlar{
+                    flex-direction: column;
+                    padding-top: 66px;
                     .rasmlar__menu-logo{
-                        margin-left: 38px;
+                        flex-direction: column;
+                        padding-top: 41px;
+                        margin-left: 0;
                         .menu-logo--iytms{
                             .menu-logo--link{
                                 font-size: 15px;
-                                padding: 0 22px;
+                                padding: 16px 32px;
+                                display: inline-block;
+                            }
+                        }
+                    }
+                }
+               .right__icon{
+                   padding-bottom: 66px;
+                    a{
+                        padding: 0 10px;
+                        svg{
+                            fill: #FCB72B;
+                            &:hover{
+                                fill: #E5ECF4;
                             }
                         }
                     }
