@@ -604,7 +604,6 @@ body{
 
     .banner{
         display: flex;
-        width: 100%;
         background-color: #F2F2F2;
         padding-top: 0px;
         padding-bottom: 0;
@@ -613,6 +612,7 @@ body{
             flex-direction: column;
             padding-left: 0;
             width: 15px;
+            width: 100%;
             margin-left: 220px;
             height:800px;
             .box--span{
